@@ -452,6 +452,9 @@
                             </includes>
                         </resource>
                     </webResources>
+                    <packagingExcludes>
+                        WEB-INF/classes/*.properties,WEB-INF/classes/*.xml,WEB-INF/classes/*.json
+                    </packagingExcludes>
                 </configuration>
             </plugin>
 
